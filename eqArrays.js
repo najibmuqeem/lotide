@@ -8,6 +8,8 @@ const eqArrays = function(arr1, arr2) {
         isEqual = false;
       }
     }
+  } else {
+    isEqual = false;
   }
   return isEqual;
 };
