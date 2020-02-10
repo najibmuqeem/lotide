@@ -9,7 +9,6 @@ const flatten = function(arr) {
       output.push(arr[i]);
     }
   }
-  console.log(output);
   return output;
 };
 
