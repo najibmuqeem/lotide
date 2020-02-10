@@ -1,5 +1,8 @@
 const middle = function(arr) {
   let nums = [];
+  if (!arr[0]) {
+    return arr;
+  }
   let middleIndex = Math.floor((arr.length - 1) / 2);
   if (middleIndex !== 0) {
     if (arr.length % 2 === 1) {
@@ -8,6 +11,8 @@ const middle = function(arr) {
       nums.push(arr[middleIndex]);
       nums.push(arr[middleIndex + 1]);
     }
+  } else {
+    nums.push(arr[0]);
   }
   return nums;
 };

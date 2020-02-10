@@ -1,3 +1,5 @@
+console.log("DO I EXPOERT!!!!!");
+
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`✅✅✅ Assertion passed: ${actual} === ${expected}`);
